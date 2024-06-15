@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.q-toolbar{padding:0}
+.q-field--standout.q-field--highlighted .q-field__control {
+    box-shadow: inherit !important;
+    background: rgb(239, 239, 239) !important;
+}
+
+.q-field--float .q-field__label {
+   font-weight: bold;
+}
+
+.q-field--standout.q-field--highlighted .q-field__native, 
+.q-field--standout.q-field--highlighted .q-field__prefix, 
+.q-field--standout.q-field--highlighted .q-field__suffix, 
+.q-field--standout.q-field--highlighted .q-field__prepend, 
+.q-field--standout.q-field--highlighted .q-field__append, 
+.q-field--standout.q-field--highlighted .q-field__input {
+    color: #1f1f1f;
+}
+
+body.desktop{
+    .q-hoverable:hover,
+    .q-hoverable:focus{
+        > .q-focus-helper{
+            @apply bg-primary-500;
+        }
+    }
+}
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(0.4rem);
+}

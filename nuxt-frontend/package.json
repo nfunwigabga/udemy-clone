@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.7",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "nuxt-quasar-ui": "^1.7.3"
+  },
+  "dependencies": {
+    "@nuxt-alt/auth": "^2.4.2",
+    "@nuxt-alt/http": "^1.6.4",
+    "@pinia/nuxt": "^0.4.9",
+    "@quasar/extras": "^1.16.3",
+    "@stripe/stripe-js": "^1.53.0",
+    "@videojs-player/vue": "^1.0.0",
+    "@videojs/http-streaming": "^2.16.2",
+    "laravel-echo": "^1.15.1",
+    "pinia": "^2.0.35",
+    "pusher-js": "^8.0.2",
+    "quasar": "^2.11.10",
+    "resumablejs": "^1.1.0",
+    "video.js": "^8.3.0",
+    "vuedraggable": "^4.1.0"
+  }
+}

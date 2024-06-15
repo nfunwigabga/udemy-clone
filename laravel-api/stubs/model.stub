@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Traits\WithHashId;
+
+class {{ class }} extends BaseModel
+{
+    use WithHashId;
+}
