@@ -10,4 +10,15 @@ This is a clone of Udemy.com using Laravel API and Nuxt on the client-side. This
 - Quasar (Vue Component Library)
 - Video.JS
 - FFMpeg for Video Processing
+- Laravel WebSockets for realtime (If I were to do this all over, I'd use Reverb!)
+
+## Features
+- Laravel API with Authentication and Authorization
+- HTTP-only Cookies for Authentication Token in Nuxt
+- Drag-and-drop course builder
+- Video Processing with FFMpeg
+- Realtime notification
+- Course Player with VideoJS
+- Course Purchase (checkout) with Stripe
+- Course Discount Coupons
 
