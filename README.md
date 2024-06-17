@@ -2,7 +2,7 @@
 
 This is a clone of Udemy.com using Laravel API and Nuxt on the client-side. This was initially meant to be a premium course, but is now OpenSource.
 
-## [Youtube Demo Link](https://www.youtube.com/watch?v=SXug9LZpbCM)
+## [YouTube Link](https://www.youtube.com/watch?v=DGMhse4bCEM&list=PL88NtG4QiyUByvP7Y0MwDSfEcuWk02A4Q&ab_channel=FusiGabz)
 
 ## Tech Stack
 - Laravel
